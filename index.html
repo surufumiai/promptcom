@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Prompt Com</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FZ8X6NVRR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4FZ8X6NVRR');
+</script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+  <p>Go to Prompt Com,<br>
+     If you are not automatically redirected <a id="link" href="https://prompt-com.com/ja/p/2132ebf6-58b8-4fba-9db0-c1a5f4db8c21?utm_source=Pixiv&utm_medium=text&utm_campaign=PromptCom">please click here</a>.</p>
+
+  <script>
+    // リダイレクト先URL（UTMなしでも可）
+    const redirectURL = "https://prompt-com.com/ja/p/2132ebf6-58b8-4fba-9db0-c1a5f4db8c21?utm_source=Pixiv&utm_medium=text&utm_campaign=PromptCom";
+
+    // 1秒後にリダイレクト
+    setTimeout(() => {
+      window.location.href = redirectURL;
+    }, 1000);
+
+    // 手動クリック用リンクにURLをセット
+    document.getElementById("link").href = redirectURL;
+  </script>
+</body>
+</html>
